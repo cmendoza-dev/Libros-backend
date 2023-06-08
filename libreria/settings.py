@@ -50,15 +50,11 @@ REST_FRAMEWORK = {
         'rest_framework.permissions.AllowAny'
     ],
 }
-
-
 CORS_ORIGIN_ALLOW_ALL = True
-
 
 CORS_ALLOWED_ORIGINS = [
     "http://localhost:3000",  # Reemplaza con la URL donde se ejecuta la aplicación React
 ]
-
 CORS_ALLOW_METHODS = [
     'GET',
     'POST',
